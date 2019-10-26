@@ -4,12 +4,12 @@
 
  .logo {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 0px;
 	font-size: 23px;
 	position: fixed;
 	left: 30px;
-	top: 30px;
+	top: 37.5px;
 	mix-blend-mode: difference;
 	z-index: 20;
 }
@@ -34,13 +34,13 @@
 	float: left;
 	text-transform: uppercase;
 	opacity: .5;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
 .language .active {
 	opacity: 1;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .language .lang:hover {
@@ -78,7 +78,7 @@
 /* ------------------------- Socials -------------------------------------------------- */
 
 .socials {
-	width: 40px;
+	width: 150px;
 	position: fixed;
 	top: 50%;
 	transform: translate(0, -50%);
@@ -89,14 +89,13 @@
 }
 
 .social-btn {
+	display: block;
 	width: 40px;
 	height: 40px;
-	float: left;
+	color: #fff;
+    font-size: 20px;
 }
 
-.ig { background: url("../img/ico-ig-light.svg") center center no-repeat;}
-.li { background: url("../img/ico-li-light.svg") center center no-repeat;}
-.dr { background: url("../img/ico-dr-light.svg") center center no-repeat;}
 
 .social-btn:hover {
 	opacity: .5;
@@ -256,7 +255,7 @@
 
 #menu .nav-contact .credits {
 	position: absolute;
-	bottom: 20px;
+	top: 100%;
 	opacity: .5;
 }
 
@@ -300,7 +299,7 @@
 	list-style: none;
 	width: 100%;
 	float: left;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align: right;
 }
 
