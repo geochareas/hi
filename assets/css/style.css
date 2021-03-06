@@ -853,7 +853,7 @@ html, body {
 
 .location .map {
     position: relative;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 15%);
     display: inline-block;
     left: 50%;
 }
