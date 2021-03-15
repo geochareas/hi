@@ -194,6 +194,16 @@ html, body {
     background: #fff;
 }
 
+
+#nav .nav-contact .profile-picture {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 40px;
+    background: url("../img/george.jpg") center center;
+    background-size: cover;
+    margin-top: 25px;
+}
 @media screen and (max-width: 1450px){
     .sub-header {
         padding-top: 230px;
@@ -538,7 +548,7 @@ html, body {
 }
 
 .footer-block {
-    background: url("https://scontent.fath3-4.fna.fbcdn.net/v/t1.0-9/29792376_2170805029805833_401047608942339293_n.jpg?_nc_cat=103&_nc_oc=AQlkU8Au1_JdYo7q5LGjJVpg71X6QBY-o7sELt63mvFAS5XlSczPkUbMKLomL-E0569RJNlPYbSfA72pngDkI-kY&_nc_ht=scontent.fath3-4.fna&oh=e6f4bf949dbfc9a0f56341c25be22011&oe=5E18D941") center center  no-repeat;
+    background: url("../img/george2.jpg") center center  no-repeat;
     background-size: cover;
     float: left;
     position: relative;
